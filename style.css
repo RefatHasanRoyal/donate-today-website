@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-image {
+    height: 100vh;
+    width: 100%;
+    background: url(images/donation13.jpg);
+    background-repeat: no-repeat;  
+    background-size: cover;
+    background-position: center;
+}
+
+.header-text {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto; 
+}
+.header-text h1 {
+    font-size: 65px;
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.header-text p {
+    font-size: 18px;
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.header-text a {
+    background-color: #FF5959;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 5px;   
+}
+
+/* Donate today section starts from here */
+
+.donate-today {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.donate-today-text {
+    width: 50%;
+    text-align: center;
+}
+.donate-today-text h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.donate-today-text p {
+    font-size: 18px;
+    color: grey;
+    margin-bottom: 50px;
+}
+.amount-box {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+.amount-box div {
+    background-color: #ebebeb;
+    color: #707070;
+    padding: 30px 20px;
+
+}
+.amount-box .box-item {
+    height: auto;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.amount-box .active-box {
+    background-color: #FFEEEE;
+    color: #FF5959;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+.other-amount input {
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.other-amount hr {
+    border-top: 1px solid #d1d1d1;
+    width: 750px;
+    margin-bottom: 30px;
+}
+
+.donate-today a {
+    background-color: #FF5959;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 5px; 
+    margin-bottom: 100px; 
+}
+
+/* Our donate plan section starts here */
+
+.donate-plan {
+    width: 100%;
+    height: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
+.donate-plan-text {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+.donate-plan-text h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.donate-plan-text p {
+    font-size: 18px;
+    color: grey;
+    margin-bottom: 40px;
+}
+.donate-plan-card {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.donate-plan-card .food {
+    background-color: #edf5f6;
+    padding: 50px 20px;
+    width: 35%;
+    text-align: left;
+    border-radius: 5px;
+}
+.donate-plan-card .food img {
+    margin-bottom: 15px;
+}
+.donate-plan-card .food h2 {
+    margin-bottom: 15px;
+}
+.donate-plan-card .food p {
+    margin-bottom: 15px;
+    color: grey;
+}
+.donate-plan-card .shelter {
+    background-color: #ffeeee;
+    padding: 50px 20px;
+    width: 35%;
+    text-align: left;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+.donate-plan-card .shelter img {
+    margin-bottom: 15px;
+}
+.donate-plan-card .shelter h2 {
+    margin-bottom: 15px;
+}
+.donate-plan-card .shelter p {
+    margin-bottom: 15px;
+    color: grey;
+}
+.donate-plan-card .education {
+    background-color: #fff4d6;
+    padding: 50px 20px;
+    width: 35%;
+    text-align: left;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+.donate-plan-card .education img {
+    margin-bottom: 15px;
+}
+.donate-plan-card .education h2 {
+    margin-bottom: 15px;
+}
+.donate-plan-card .education p {
+    margin-bottom: 15px;
+    color: grey;
+}
+
+/* Be a volunteer section starts here */
+
+.be-a-volunteer {
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+.volunteer-flex {
+    display: flex;
+}
+
+.volunteer-img img {
+    width: 500px;
+    height: 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-left: 150px;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+
+.be-a-volunteer-text {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.be-a-volunteer-text h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.be-a-volunteer-text p {
+    font-size: 18px;
+    color: grey;
+    margin-bottom: 40px;
+}
+.be-a-volunteer-form {
+    width: 500px;
+    height: 370px;
+    background-color: #c5c5c5;
+    border-radius: 5px;
+}
+.form-text {
+    border: none;
+    font-size: 14px;
+    padding: 10px 50px;
+    margin-bottom: 10px;
+}
+#form-tex-first-name {
+    margin-top: 30px;
+}
+#submit-button {
+    background-color: #FF5959;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+/* Get my updates section starts here */
+
+.get-update {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.get-update-text {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+.get-update-text h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.get-update-text p {
+    font-size: 18px;
+    color: grey;
+    margin-bottom: 40px;
+}
+.get-update .subscribe {
+    width: 60%;
+    height: 200px;
+    background-color: #fff4d6;
+    margin: 0 auto;
+    position: relative;
+}
+.subscribe-input {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.subscribe-input .email {
+    background-color: #d9d9d9;
+    padding: 10px 60px 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+.subscribe-input .subscribe-button {
+    background-color: #FF5959;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+/* footer section starts here */
+.footer {
+    background-color: #0b0d17;
+    height: 150px;
+    position: relative;
+}
+.footer-text {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.footer-text h1 {
+    color: #FF5959;
+    margin-bottom: 20px;
+    font-family: 'Lobster Two', cursive;
+    font-size: 35px;
+}
+.footer-text p {
+    font-size: 14px;
+}
